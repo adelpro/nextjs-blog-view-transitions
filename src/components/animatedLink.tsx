@@ -16,7 +16,6 @@ export default function AnimatedLink({ href, children }: Props) {
         animatedRoute(href);
       }}
       passHref
-      // prefetch={true}
     >
       {children}
     </Link>
